@@ -9,5 +9,4 @@ docker run -d \
   --hostname 'black-pearl' \
   -v /media/stick:/share/stick \
   dastrasmue/rpi-samba:v3 \
-  -u "daniel:daniel" \
-  -s "test:/share/stick:ro:"
+  -s "share_rw:/share/stick:rw:"
